@@ -1,0 +1,64 @@
+/* Start Variables */
+:root {
+    --main-color: #FF5733;
+    --secondary-color: #3741E9;
+    --third-color : #6c757d;
+    --main-duration: 0.5s;
+  }
+/* End Variables */
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+html 
+{
+    scroll-behavior: smooth ;
+}
+body{
+    padding: 0px !important;
+    margin: 0px!important;
+}
+
+.alignCenter
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/********** report header *************/ 
+.testdata
+{
+    direction: rtl;
+    gap: 30px;
+    border-top: solid 2px whitesmoke;
+}
+/* <!-- ****** questation section ******--> */
+.q-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: solid 1px rgb(184, 175, 175);
+    direction: rtl;
+}
+.q-answer,.q-answer-eng
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.q-container-eng
+{
+    display: flex;
+    border-bottom: solid 1px rgb(184, 175, 175);
+}
+@media(max-width:968px){
+    .q-answer .alignCenter img {
+        width: 100%;
+    }
+}

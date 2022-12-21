@@ -47,34 +47,34 @@ nav ul li
 {
     text-align: center; 
     padding: 10px 5px;
-    border-radius: 5px;
 }
 .nav-item:hover
 {
     text-decoration: underline;
-    background-color: var(--main-color)!important;
+    background-color: var(--main-color);
 }
 .navbar-brand
 {
     gap: 10px;
 }
-.navbar-brand a i
+.navbar-brand a:hover
 {
-transition: all 0.5s ease;
+    color: oldlace;
+    /* background-color: var(--main-color); */
 }
-.navbar-brand a i:hover
-{
-    color: var(--main-color);
-}
+
+a {}
 /* Banner */
-.banner-img
+img
 {
     width: 100%;
+    height: 125px;
 }
 @media (max-width:968px) {
-    .banner-img
+    img
 {
     width: 100%;
+    height: 75px;
 }
 }
 /* Filter section  */
@@ -119,7 +119,7 @@ select
 .cardStyle
 {
     background-color: var(--main-color);
-    margin: 15px;
+    margin: 5px;
     transition: var(--main-duration);
 }
 .cardStyle:hover
