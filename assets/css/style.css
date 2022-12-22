@@ -127,6 +127,14 @@ select
     transform: scale(105%) ;
     transition: var(--main-duration);
 }
+/* <!-- ****** social page style ******--> */
+
+.social-groups
+{
+    justify-content: center;
+    direction: rtl;
+    gap: 10px;
+}
 /* <!-- ****** footer ******--> */
 
 footer

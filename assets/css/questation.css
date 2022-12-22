@@ -39,15 +39,38 @@ body{
     border-bottom: solid 1px rgb(184, 175, 175);
     direction: rtl;
 }
-.q-answer,.q-answer-eng
+.q-answer ,.q-answer-eng
 {
     display: flex;
     justify-content: start;
-    align-items: center;
-    gap: 50px;
-    margin: auto;
-    flex-wrap: wrap;
+    align-items: start;
+    gap: 30px;
 }
+.frame-aduio
+{
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+}
+.frame-aduio html body video
+{
+    width: 100px;
+}
+.frame-img
+{
+    height: 250px;
+    border: none;
+}
+/* .q-answer-eng
+{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+    margin-left: 75px;
+    flex-wrap: wrap;
+} */
 .q-container-eng
 {
     display: flex;

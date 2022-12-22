@@ -20,7 +20,14 @@ body{
     padding: 0px !important;
     margin: 0px!important;
 }
-
+.bg-secondary-color
+{
+    background-color: var(--secondary-color)
+}
+.bg-main-color
+{
+    background-color: var(--main-color)
+}
 .alignCenter
 {
     display: flex;

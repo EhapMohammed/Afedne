@@ -19,13 +19,15 @@
                                               <!-- ****** report head section ******-->
 <section class="col-md-12 col-12 alignCenter mt-2 mb-2">
   <div class="col-md-10 col-12 alignCenter p-4 text-center flex-wrap">
-    <div class=" alignCenter col-md-12 col-12 flex-column bg-info rounded pt-3 pb-3">
+    <div class=" alignCenter col-md-12 col-12 flex-column bg-success
+    rounded pt-3 pb-3">
       <h1>نتيجة الإختبار</h1>
       <p>اسم المادة - الصف</p> 
       <p>رائع لقد قمت بإنهاء الاختبار وحصلت على </p>
-      <h2 class="rounded-circle list-group-item list-group-item-info p-5 ">%25</h2>
+      <h2 class="rounded-circle bg-light p-5 ">%25</h2>
     </div>
-    <div class="testdata flex-wrap alignCenter col-md-12 col-12 rounded bg-info pt-3 pb-3">
+    <div class="testdata flex-wrap alignCenter col-md-12 col-12 rounded 
+    pt-3 pb-3 ">
       <div class="col-12 col-md-3">
         <div class="font-weight-bold rounded p-3">عدد الاسئلة</div>
         <div class="bg-light rounded p-3">25</div>
@@ -48,7 +50,7 @@
   <div class="q-container  col-md-12 col-12 flex-column text-justify pt-3 pb-3 ">
     <div class="q-head pt-3 pb-3 font-weight-bold">quastetion head</div>
     <div class="q-body pt-3 pb-3 w-100">quastetion</div>
-    <div class="q-answer pt-3 pb-3">
+    <div class="q-answer pt-3 pb-3 flex-column mr-5 flex-wrap">
       <div class="alignCenter list-group-item list-group-item-danger p-2 rounded">
       <input checked type="radio" name="choose" id="answer1" ></input>
       <label class="pr-1" for="answer1">answer</label>
@@ -75,7 +77,7 @@
         <source src="./assets/audio/086.MP3" type="audio/mpeg">
       </audio>
      </div>
-    <div class="q-answer pt-3 pb-3">
+    <div class="q-answer pt-3 pb-3 flex-column mr-5 flex-wrap">
       <div class="alignCenter list-group-item list-group-item-success  p-2 rounded">
       <input type="radio" name="truefalse" id="answer-1" >
       <label class="pr-1" for="answer-1">answer</label>
@@ -91,7 +93,7 @@
   <div class="q-container-eng  col-md-12 col-12 flex-column text-justify pt-3 pb-3 ">
     <div class="q-head pt-3 pb-3 font-weight-bold">quastetion head</div>
     <div class="q-body pt-3 pb-3"><img src="/assets/img/Capture.PNG" alt=""></div>
-    <div class="q-answer-eng  pt-3 pb-3">
+    <div class="q-answer-eng  pt-3 pb-3 flex-column ml-5 flex-wrap">
       <div class="alignCenter  list-group-item list-group-item-success  p-2 rounded">
       <input type="radio" name="chooseQ" id="choose1" >
       <label class="pl-1" for="choose1">answer</label>
@@ -115,7 +117,7 @@
   <div class="q-container-eng  col-md-12 col-12 flex-column text-justify pt-3 pb-3 ">
     <div class="q-head pt-3 pb-3 font-weight-bold">quastetion head</div>
     <div class="q-body pt-3 pb-3">quastetion</div>
-    <div class="q-answer-eng   pt-3 pb-3">
+    <div class="q-answer-eng   pt-3 pb-3 flex-column ml-5 flex-wrap">
       <div class="alignCenter  list-group-item list-group-item-danger  p-2 rounded">
       <input checked class="" type="radio" name="truefals" id="answer1" >
       <label class="pl-1" for="answer1">answer</label>
@@ -127,9 +129,12 @@
 
     </div>
   </div>
+  <input class="btn btn-success mt-3 py-2 px-4" type="submit" value="إعادة الإختبار">
+
 </div>
 </section>
 
+  <!-- ****** but footer her******-->
 
 
 
