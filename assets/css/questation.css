@@ -46,31 +46,43 @@ body{
     align-items: start;
     gap: 30px;
 }
-.frame-aduio
+.form-check-input
 {
-    height: 50px;
-    border: none;
-    border-radius: 30px;
-    width: 100%;
+    position:unset !important;
 }
-.frame-aduio html body video
+/* input:checked .answer
 {
-    width: 100px;
-}
-.frame-img
-{
-    height: 250px;
-    border: none;
-}
-/* .q-answer-eng
-{
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    gap: 30px;
-    margin-left: 75px;
-    flex-wrap: wrap;
+    border: solid 2px gray;
+    box-shadow: 5px 10px 8px var(--third-color);
+    filter: drop-shadow(0 0 0.75rem crimson); 
 } */
+ /* input[type="radio"] {
+    display: none;
+}
+input[type="radio"] ~ label {
+    display: flex;
+    align-items: center;
+    padding: 3px 0 3px 25px;
+}
+input[type="radio"] ~ label:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    margin: 0px 10px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: all 300ms ease-in-out;
+}
+input[type="radio"]:checked .answer {
+    box-shadow: 5px 10px 8px var(--third-color);
+}*/
+ input[type="checkbox"]:checked ~ label {
+    box-shadow: 1px 1px 10px #ff583388;
+} 
+
 .q-container-eng
 {
     display: flex;

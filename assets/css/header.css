@@ -1,0 +1,65 @@
+/* Start Variables */
+:root {
+    --main-color: #FF5733;
+    --secondary-color: #3741E9;
+    --third-color : #6c757d;
+    --main-duration: 0.5s;
+  }
+/* End Variables */
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+html 
+{
+    scroll-behavior: smooth ;
+}
+body{
+    padding: 0px !important;
+    margin: 0px!important;
+}
+/* span
+{
+    color: black ;
+    font-weight: bolder ;
+} */
+/********** header & home page*************/ 
+nav
+{
+    font: bold normal 16px/16px "Segoe UI" ;
+    background-color: var(--secondary-color);
+    direction: rtl ;
+}
+nav ul
+{
+    justify-content: space-around ;
+}
+nav ul li
+{
+    text-align: center; 
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.nav-item:hover
+{
+    text-decoration: underline;
+    background-color: var(--main-color)!important;
+}
+.navbar-brand
+{
+    gap: 10px;
+}
+.navbar-brand a i
+{
+transition: all 0.5s ease;
+}
+.navbar-brand a i:hover
+{
+    color: var(--main-color);
+}
+a
+{
+    color: white !important;
+}

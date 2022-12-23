@@ -69,3 +69,15 @@ body{
         width: 100%;
     }
 }
+.form-check-input
+{
+    position:unset !important;
+}
+
+ input[type="checkbox"]:checked ~ label {
+    box-shadow: 1px 1px 10px #ff583388;
+} 
+.form-check-label
+{
+    border-color: rgba(184, 175, 175, 0.411) !important;
+}
