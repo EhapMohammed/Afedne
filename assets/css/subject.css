@@ -46,14 +46,7 @@ body{
 }
 }
 /* <!-- ****** content section ******--> */
-.contentStyle
-{
-    justify-content: space-around !important;
-}
-.discreptionStyle
-{
-    border-radius: 2px;
-}
+
 .cardStyle
 {
     padding: 0% !important;
@@ -65,8 +58,20 @@ body{
     height: 350px;
 }
 
-iframe
+.subj-main-container
 {
-    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    direction: rtl;
 }
+.subj-main-container a
+{
+    color:inherit !important;
+}
+
+.subj-left-container .read-more:hover
+{
+    background-color: var(--main-color) !important;
+} 
 /* <!-- ****** footer ******--> */
